@@ -1,0 +1,64 @@
+.navbar {
+    padding: 5px 0 ;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+}
+
+.navbar .logo {
+    width: 50%;
+    float: left;
+}
+@media (max-width : 1200px) {
+    .navbar .logo {
+        width: 40%;
+        float: left;
+    }
+}
+@media (max-width : 991px) {
+    .navbar .logo {
+        width: 100%;
+        float: none;
+    }
+}
+.navbar .logo .logo-text{
+    font-size: 25px;
+    color: rgb(25, 134, 236);
+}
+.navbar .list {
+    width: 50%;
+    float: right;
+    list-style: none;
+}
+@media (max-width : 1200px) {
+    .navbar .list{
+        width: 60%;
+        float: right;
+    }
+}
+@media (max-width : 767px) {
+    .navbar .list {
+        width: 100%;
+        float:  none;
+        display: block
+    }
+}
+.navbar .list .list-item {
+    display: inline-block;
+}
+@media (max-width : 991px) {
+    .navbar .list .list-item {
+        display: block;
+        text-align: center;
+    }
+}
+.navbar .list .list-item a{
+    display: block ;
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    padding: 15px 10px;
+
+}
+.navbar .list .list-item a:hover{
+    color: rgb(25, 134, 236);
+}

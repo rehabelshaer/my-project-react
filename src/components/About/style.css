@@ -1,0 +1,51 @@
+.about {
+    min-height: 100vh;
+    background-image: url('/src/assets/images/img11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+
+.about .about-info {
+    padding-top: 50px;
+    width: 50%;
+    float: right;
+}
+
+.about .about-info .info-title {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -40px;
+}
+
+.about .about-info .info-title span {
+    font-weight: normal
+}
+
+.about .about-info h4 {
+    font-size: 40px;
+    color: rgb(25, 134, 236);
+    margin-bottom: 20px
+}
+
+.about .about-info p {
+    color: rgb(54, 54, 54);
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+@media (max-width : 767px) {
+    .about .about-info p {
+        font-size: 16px;
+        line-height: 1.4;
+    }   
+}
+@media (max-width : 576px) {
+    .about .about-info p {
+        font-size: 12px;
+        line-height: normal;
+    }   
+}
+.about .about-info p a {
+    text-decoration: none
+}

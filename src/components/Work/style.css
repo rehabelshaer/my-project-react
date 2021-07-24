@@ -1,0 +1,66 @@
+.work {
+    height: auto;
+    padding: 50px 0;
+    overflow: hidden;
+    background: #fff
+}
+.work .work-box{
+    float: left;
+    width: calc(100% / 3);
+}
+.work .work-title {
+    font-size: 40px; 
+}
+
+.work .work-title span {
+    font-weight: normal
+}
+
+.work .part {
+    margin-top: 20px;
+    float: left;
+    height: auto;
+    padding: 80px 0;;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 7%;
+}
+@media (max-width : 767px) {
+    .work .work-box{
+        width: 100%;
+        float: none;
+    }
+    .work .part{
+        padding: 30px 0 0 0;
+    }
+}
+.work .part .icon {
+    color: #888;
+    margin-bottom: 20px
+}
+
+.work .part h4 {
+    font-size: 25px;
+    color: rgb(25, 134, 236);
+    margin-bottom: 20px
+}
+@media (max-width : 767px) {
+    .work .part h4 {
+        font-size: 25px;
+        color: rgb(25, 134, 236);
+        margin-top: 10px
+    }
+}
+.work .part .line {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px
+}
+
+.work .part .parg {
+    font-size: 14px;
+    color: #888;
+    padding: 20px
+}
+
